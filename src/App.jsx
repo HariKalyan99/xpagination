@@ -26,7 +26,7 @@ function App() {
         }
         setCompleteMembers(only10);
       } catch (error) {
-        console.log("Error", error);
+        alert('failed to fetch data');
       }
     };
 
