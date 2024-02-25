@@ -1,0 +1,42 @@
+.tableContainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+tr {
+  border: 1px solid rgb(202, 200, 200);
+  height: 50px;
+}
+
+tr:nth-child(10) {
+  border-bottom: 3px solid #009879;
+}
+
+#tab {
+  border-collapse: collapse;
+}
+
+
+#tableHeading {
+  background-color: #009879;
+  color: white;
+}
+
+
+#btn {
+  height: 40px;
+  width: 40px;
+  color: white;
+}
+
+button {
+  height: 30px;
+  background-color: #009879;
+  border: none;
+  border-radius: 4px;
+  color: white;
+}
+
+
